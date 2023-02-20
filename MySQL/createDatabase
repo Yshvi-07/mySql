@@ -1,0 +1,10 @@
+Create table Employee(emp_name varchar(20),emp_salary int,emp_cities varchar(20));
+Insert into Employee values('John',2000,'Jaipur');
+Insert into Employee values('Jennie',200,'Anpara');
+Insert into Employee values('Asha',25222,'Varanasi');
+Insert into Employee values('Ayush',2783,'Allahabad');
+Insert into Employee values('Johnny',20,'Jaipur');
+Insert into Employee values('Chandler',20500,'Shrinagar');
+desc Employee;
+Select emp_name,emp_salary from Employee;
+
