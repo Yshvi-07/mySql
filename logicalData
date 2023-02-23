@@ -1,0 +1,10 @@
+create database ECE;
+create table Students(std_name varchar(100),id int,city varchar(100),lib_id int);
+insert into Students(std_name,id, city,lib_id) values("YASHASVI " ,196,"ANPARA",1136),("SANSKAR",145,"DELHI",1169),("VANSHITA",185,"ALLAHABAD",1138),("RITUZ",135,"DELHI",1162),("ABHINAV",108,"GORAKHPUR",1145);
+select std_name,id,city,lib_id from Students where city="DELHI";
+Alter table Students Add(elc_sbj varchar(100));
+Select * from Students;
+Delete from Students where city="DELHI";
+Select * from Students;
+-- Your code here!
+
