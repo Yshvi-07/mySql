@@ -1,0 +1,14 @@
+create database Employee;
+use Employee;
+
+
+
+
+create table Employee(id int,first_name varchar(100),last_name varchar(100),email varchar(150),phone_no varchar(10),hiring_data varchar(100),salary int,manager_id varchar(100),department_id int,incentive int);
+insert into Employee value(1001,"YASHASVI","SINGH","yyv1302@gmail.com","8957128766","SDE",2400000,"2024it1136",19,50),(1002,"YASHA","SINGH","yy1302@gmail.com","8957128768","SDE",24000,"2024it1134",64,5),
+(1001,"YASHAS","SINGH","syv1302@gmail.com","8957128566","SDE",240000,"2024it1126",19,2),(1201,"aSHASVI","SINGH","ria1302@gmail.com","8957008766","SDE",200000,"2023it1136",18,56),
+(1211,"RITUZ","GUPTA","rituz1302@gmail.com","8957128766","SDE",24,"2024it1196",85,100),(10,"SANSKAR","SINGH","yy302@gmail.com","7008128766","SDE",241000,"2024ec1136",19,560),
+(01,"YASH","SINGH","v1302@gmail.com","0000000060","SDE",2400,"2024ce5136",45,56);
+select * from Employee;
+select first_name,last_name,(salary+incentive)as total_salary from Employee;
+-- Your code here!
