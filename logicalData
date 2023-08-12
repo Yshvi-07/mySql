@@ -6,5 +6,4 @@ Alter table Students Add(elc_sbj varchar(100));
 Select * from Students;
 Delete from Students where city="DELHI";
 Select * from Students;
--- Your code here!
-
+-- Your code here!!
